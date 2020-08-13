@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000
 const server = http.createServer((req, res) => {
   if (req.url === '/') return respondHello(req, res)
 
-  res.end()
+  res.end() 
 })
 
 function respondHello (req, res) {
